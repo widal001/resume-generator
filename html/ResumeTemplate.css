@@ -21,6 +21,7 @@
     width: 216px;
     background-color: #9BBB59;
     margin: auto;
+    top: 12px;
 
     text-align: center;
     line-height: 32px;
@@ -50,7 +51,7 @@
 .mainCol {
     position: relative;
     width: 378px;
-    height: 648px;
+    height: 657px;
     border-color: lightgrey;
     border-width: thin;
     border-style: solid;
@@ -62,11 +63,48 @@
 .sideCol {
     position: relative;
     width: 180px;
-    height: 648px;
+    height: 657px;
     border-color: lightblue;
     border-width: thin;
     border-style: solid;
     top: 18px;
     right: 18px;
     float: right;
+}
+
+.expSection {
+    position: relative;
+    width: inherit;
+    min-height: 30%;
+    /*
+    border-color: green;
+    border-width: thin;
+    border-style: solid;
+    */
+    margin-bottom: 9px;
+}
+
+.sectionTitle {
+    font-size: 14px;
+    font-family: Bitter;
+    color: #4F81BD;
+    padding-bottom: 2px;
+    margin-bottom: 9px;
+
+    border-bottom-color: #4F81BD;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+.expRecord {
+    position: relative;
+    width: inherit;
+    min-height: 72px;
+    padding-left: 2px;
+    margin-bottom: 9px;
+
+    border-left-color: #9BBB59;
+    border-left-style: solid;
+    border-left-width: medium;
+
 }
