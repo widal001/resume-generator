@@ -18,13 +18,56 @@
     background-color: #F4F0DE;
 }
 
+.headerItems {
+    position: relative;
+    width: inherit;
+    height: 72px;
+    border-color: red;
+    border-style: solid;
+    border-width: thin;
+}
+
+.headerCircle {
+    position: relative;
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    border-color: #4F81BD;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    margin: 9px 9px 0px 9px;
+
+}
+
+.headerName {
+    position: relative;
+    display: inline-block;
+    width: 306px;
+    height: 72px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 9px;
+}
+
+.headerContact {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 72px;
+    border-color: orange;
+    border-style: solid;
+    border-width: thin;
+}
+
 .profileBox {
     position: relative;
     height: 32px;
     width: 216px;
     background-color: #9BBB59;
     margin: auto;
-    top: 12px;
+    top: 16px;
 
     text-align: center;
     line-height: 32px;
@@ -37,18 +80,6 @@
     position: relative;
     width: inherit;
     height: 684px;
-}
-
-.headerCircle {
-    position: relative;
-    width: 72px;
-    height: 72px;
-    border-color: #4F81BD;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 100%;
-    top: 18px;
-    left: 18px;
 }
 
 .mainCol {
