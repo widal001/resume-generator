@@ -1,0 +1,31 @@
+.pdfBorder {
+    width: 612px;
+    height: 792px;
+    margin: auto;
+}
+
+.pdfHeader {
+    width: inherit;
+    height: 108px;
+    background-color: #F4F0DE;
+}
+
+.profileBox {
+    height: 32px;
+    width: 216px;
+    background-color: #9BBB59;
+    position: relative;
+    margin: auto;
+
+    text-align: center;
+    line-height: 32px;
+    font-family: Bitter;
+    font-size: 14px;
+    color: white;
+}
+
+.pdfBody {
+    width: inherit;
+    height: 684px;
+    background-color: grey;
+}
