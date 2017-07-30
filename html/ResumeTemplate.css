@@ -3,9 +3,12 @@
     width: 612px;
     height: 792px;
     margin: auto;
+
+    /*
     border-style: solid;
     border-color: lightgrey;
     border-width: thin;
+    */
 }
 
 .pdfHeader {
@@ -25,8 +28,8 @@
 
     text-align: center;
     line-height: 32px;
-    font-family: Bitter;
-    font-size: 14px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
     color: white;
 }
 
@@ -52,41 +55,48 @@
     position: relative;
     width: 378px;
     height: 657px;
-    border-color: lightgrey;
-    border-width: thin;
-    border-style: solid;
     top: 18px;
     left: 18px;
     float: left;
+
+    /*
+    border-color: lightgrey;
+    border-width: thin;
+    border-style: solid;
+    */
+
 
 }
 .sideCol {
     position: relative;
     width: 180px;
     height: 657px;
-    border-color: lightblue;
-    border-width: thin;
-    border-style: solid;
     top: 18px;
     right: 18px;
     float: right;
+
+    /*
+    border-color: lightblue;
+    border-width: thin;
+    border-style: solid;
+    */
 }
 
 .expSection {
     position: relative;
     width: inherit;
-    min-height: 30%;
+    margin-bottom: 9px;
+
     /*
     border-color: green;
     border-width: thin;
     border-style: solid;
     */
-    margin-bottom: 9px;
 }
 
 .sectionTitle {
     font-size: 14px;
-    font-family: Bitter;
+    font-family: 'Zilla Slab', serif;
     color: #4F81BD;
     padding-bottom: 2px;
     margin-bottom: 9px;
@@ -99,12 +109,42 @@
 .expRecord {
     position: relative;
     width: inherit;
-    min-height: 72px;
-    padding-left: 2px;
+    min-height: 45px;
+    padding-left: 3px;
     margin-bottom: 9px;
 
     border-left-color: #9BBB59;
     border-left-style: solid;
     border-left-width: medium;
 
+}
+
+.expDates {
+    font-size: 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #0a0a0a;
+}
+
+.expName {
+    font-size: 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #666666;
+}
+.objList {
+    width: 98%;
+    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0a0a0a;
+    margin-top: 3px;
+}
+
+ul {
+    padding-top: 0px;
+    padding-left: 3px;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+ul li {
+    margin-bottom: 3px;
 }
