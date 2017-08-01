@@ -21,58 +21,135 @@
 .headerItems {
     position: relative;
     width: inherit;
-    height: 72px;
+    height: 75px;
+    /*
     border-color: red;
     border-style: solid;
     border-width: thin;
+    */
 }
 
 .headerCircle {
     position: relative;
-    display: inline-block;
+    float: left;
     width: 72px;
     height: 72px;
+    margin: 18px 18px 0px 36px;
+    background-color: white;
+
     border-color: #4F81BD;
     border-style: solid;
-    border-width: 2px;
+    border-width: 2.5px;
     border-radius: 100%;
-    margin: 9px 9px 0px 9px;
+
+    font-size: 36px;
+    font-family: 'Bitter',serif;
+    text-align: center;
+    color: #4F81BD;
+    line-height: 72px;
 
 }
 
 .headerName {
     position: relative;
-    display: inline-block;
+    float: left;
     width: 306px;
     height: 72px;
+
     border-color: black;
-    border-style: solid;
+    border-style: none;
     border-width: thin;
     margin-right: 9px;
+    margin-top: 18px;
+}
+
+.Name {
+    position: relative;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    color: #9BBB59;
+    font-weight: bold;
+}
+
+.Roles {
+    position: relative;
+    font-family: 'Zilla Slab', serif;
+    font-size: 14px;
+    color: #666666;
 }
 
 .headerContact {
     position: relative;
-    display: inline-block;
-    width: 180px;
+    float: left;
+    width: 162px;
     height: 72px;
+    margin-top: 18px;
+
     border-color: orange;
-    border-style: solid;
+    border-style: none;
     border-width: thin;
+
+}
+
+.contactItem {
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.itemSymbol {
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+
+    width: 18px;
+    height: 18px;
+    border-color: #4F81BD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+}
+
+.itemText {
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+    height: 18px;
+
+    font-size: 9px;
+    line-height: 18px;
+    font-family: 'Bitter', serif;
+    color: #666666;
+
+}
+
+.borderItems {
+    clear: left;
+    position: relative;
+    margin: auto;
+    top: -18px;
+
+}
+
+.Source {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #666666;
 }
 
 .profileBox {
     position: relative;
-    height: 32px;
-    width: 216px;
+    height: 30px;
+    width: 198px;
     background-color: #9BBB59;
     margin: auto;
-    top: 16px;
 
     text-align: center;
-    line-height: 32px;
+    line-height: 30px;
     font-family: 'Zilla Slab', serif;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
 }
 
@@ -140,7 +217,7 @@
 .expRecord {
     position: relative;
     width: inherit;
-    min-height: 45px;
+    min-height: 36px;
     padding-left: 3px;
     margin-bottom: 9px;
 
@@ -151,31 +228,62 @@
 }
 
 .expDates {
-    font-size: 12px;
-    font-family: 'Zilla Slab', serif;
+    font-size: 11px;
+    font-family: 'Bitter', serif;
     color: #0a0a0a;
 }
 
 .expName {
-    font-size: 12px;
-    font-family: 'Zilla Slab', serif;
+    font-size: 11px;
+    font-family: 'Bitter', serif;
     color: #666666;
 }
 .objList {
     width: 98%;
     font-size: 9px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #0a0a0a;
     margin-top: 3px;
 }
 
-ul {
+.objList ul {
     padding-top: 0px;
     padding-left: 3px;
     list-style-type: none;
     margin-top: 0;
 }
 
-ul li {
+.objList ul li {
     margin-bottom: 3px;
+}
+
+.roleItem {
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.roleSymbol {
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+
+    width: 18px;
+    height: 18px;
+    border-color: #4F81BD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+}
+
+.roleText {
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+    height: 18px;
+
+    font-size: 11px;
+    line-height: 18px;
+    font-family: 'Bitter', serif;
+    color: #666666;
+
 }
