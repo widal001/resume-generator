@@ -1,11 +1,12 @@
-[{
+{
     "Contact": {
         "Name": "Billy Daly",
-        "Roles": "Data Architecture and Data Analysis",
+        "Roles": ["Data Architecture", "Data Analysis"],
         "Profile": "Data Specialist",
         "Email": "billy@baltimorecorps.org",
         "Phone": "908-578-4622",
-        "Score": "89"
+        "Location": "Baltimore, MD 21201",
+        "Score": "95"
     },
 
     "Background": {
@@ -261,4 +262,4 @@
         ]
 
     }
-}]
+}
