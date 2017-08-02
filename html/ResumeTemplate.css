@@ -53,7 +53,7 @@
 .headerName {
     position: relative;
     float: left;
-    width: 306px;
+    width: 288px;
     height: 72px;
 
     border-color: black;
@@ -81,7 +81,7 @@
 .headerContact {
     position: relative;
     float: left;
-    width: 162px;
+    width: 180px;
     height: 72px;
     margin-top: 18px;
 
@@ -161,7 +161,7 @@
 
 .mainCol {
     position: relative;
-    width: 378px;
+    width: 369px;
     height: 657px;
     top: 18px;
     left: 18px;
@@ -211,7 +211,7 @@
 
     border-bottom-color: #4F81BD;
     border-bottom-style: solid;
-    border-bottom-width: medium;
+    border-bottom-width: 1.5px;
 }
 
 .expRecord {
@@ -219,11 +219,11 @@
     width: inherit;
     min-height: 36px;
     padding-left: 3px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 
     border-left-color: #9BBB59;
     border-left-style: solid;
-    border-left-width: medium;
+    border-left-width: 1.5px;
 
 }
 
@@ -239,7 +239,7 @@
     color: #666666;
 }
 .objList {
-    width: 98%;
+    width: 97%;
     font-size: 9px;
     font-family: 'Quicksand', sans-serif;
     color: #0a0a0a;
@@ -248,18 +248,22 @@
 
 .objList ul {
     padding-top: 0px;
-    padding-left: 3px;
+    padding-left: 0px;
     list-style-type: none;
     margin-top: 0;
 }
 
 .objList ul li {
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 
 .roleItem {
     position: relative;
-    margin-bottom: 3px;
+    margin-bottom: 12px;
+
+    border-color: blue;
+    border-width: thin;
+    border-style: none;
 }
 
 .roleSymbol {
@@ -267,9 +271,9 @@
     position:relative;
     display: inline-block;
 
-    width: 18px;
-    height: 18px;
-    border-color: #4F81BD;
+    width: 12px;
+    height: 12px;
+    border-color: #666666;
     border-style: solid;
     border-width: 1px;
     border-radius: 100%;
@@ -279,11 +283,60 @@
     overflow: hidden;
     position:relative;
     display: inline-block;
-    height: 18px;
+    height: 12px;
 
     font-size: 11px;
-    line-height: 18px;
+    line-height: 12px;
     font-family: 'Bitter', serif;
     color: #666666;
 
+}
+
+.roleTag {
+    position: relative;
+    padding-left: 18px;
+
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0a0a0a;
+    margin-bottom: 6px;
+
+
+}
+
+.tagName {
+    position:relative;
+    display: inline-block;
+    width: 108px;
+
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0a0a0a;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
+
+}
+
+.tagName span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: normal;
+}
+
+.tagScore {
+    position:relative;
+    display: inline-block;
+    height: 12px;
+    width: 45px;
+    text-align: right;
+
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0a0a0a;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
 }

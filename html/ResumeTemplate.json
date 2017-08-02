@@ -11,74 +11,242 @@
     "Background": {
         "Work Experience": [
             {
-                "Id": "",
-                "Name": "",
-                "Dates": "",
+                "Id": "ExA",
+                "Name": "Baltimore Corps, Systems Design Manager",
+                "Dates": "September 2015 - Present",
                 "Objectives": [
                     {
-                        "Id": "",
-                        "Objective": ""
+                        "Id": "OA1",
+                        "Objective": "Dedc wghw is whgah wlej ghzcew lbjm lwhg ewte gashgsnb ew gasgh the first."
                     },
                     {
-                        "Id": "",
-                        "Objective": ""
+                        "Id": "OA2",
+                        "Objective": "Toladg is where the second aglhegl wgalhvnlas hglewighla aglshg we ghagewl."
                     },
+                    {
+                        "Id": "OA3",
+                        "Objective": "This is where the first lorem ipsum wordg ahge thes  htewl hewhg laljvw thenv we th algh ewhb whglah naghw."
+                    },
+                    {
+                        "Id": "OA4",
+                        "Objective": "Gwelh lawglhg galshglshgslagh is where the firstahglsh wghnnzbpu alghsd nbaslh."
+                    }
+                ]
+            },
+
+            {
+                "Id": "ExB",
+                "Name": "Baltimore Green Currency Association, Database Administrator",
+                "Dates": "August 2015 - December 2015",
+                "Objectives": [
+                    {
+                        "Id": "OB1",
+                        "Objective": "This is where the first lorem ipsum wordg ahge thes  htewl hewhg laljvw thenv we th algh ewhb whglah naghw."
+                    },
+                    {
+                        "Id": "OB2",
+                        "Objective": "Toladg is where the second aglhegl wgalhvnlas hglewighla aglshg we ghagewl."
+                    },
+                    {
+                        "Id": "OB3",
+                        "Objective": "Dedc abhaleg is wheight mengw vuwghe on the lbjm lwhg ewte gashgsnb ew gasgh the first."
+                    },
+
+                    {
+                        "Id": "OB4",
+                        "Objective": "Gwelh lawglhg galshglshgslagh is where the firstahglsh wghnnzbpu alghsd nbaslh."
+                    }
+                ]
+            },
+
+            {
+                "Id": "ExC",
+                "Name": "Goucher College, Junior Business Analyst",
+                "Dates": "August 2014 - August 2015",
+                "Objectives": [
+                    {
+                        "Id": "OC1",
+                        "Objective": "This is where the first lorem ipsum wordg ahge thes reichold asenb cheglid thenv we th algh ewhb tranges govned."
+                    },
+                    {
+                        "Id": "OC2",
+                        "Objective": "Heteged sglhe deg gwa nbsg ewhen is where the for alwt ghenv to checki nbaslh tomow."
+                    },
+                    {
+                        "Id": "OC3",
+                        "Objective": "Builwged wthe is gazeging for hewg ehtng on the lwhg ewte gashgsnb ew gasgh the first."
+                    },
+                    {
+                        "Id": "OC4",
+                        "Objective": "Decignwegd the heigts on Iwgnl weghlfqu wgalhvnlas hglewighla aglshg we ghagewl alonted."
+                    }
                 ]
             }
 
         ],
         "Service and Leadership": [
             {
-                "Id": "",
-                "Name": "",
-                "Dates": "",
+                "Id": "ExD",
+                "Name": "Blue Water Baltimore, Volunteer",
+                "Dates": "May 2016 - Present",
                 "Objectives": [
                     {
-                        "Id": "",
-                        "Objective": ""
+                        "Id": "OD1",
+                        "Objective": "Hereed thwlg neighgas oohteg rewigeh endign ashed for aglh in wlhg her wehged."
                     },
                     {
-                        "Id": "",
-                        "Objective": ""
+                        "Id": "OD2",
+                        "Objective": "Builwged wthe is gazeging for hewg ehtng on the lwhg ewte gashgsnb ew gasgh the first."
                     },
                 ]
-            }
+            },
 
         ],
         "Education": [
             {
-                "Id": "",
-                "Name": "",
-                "Dates": "",
+                "Id": "ExE",
+                "Name": "University of Michigan, Python Specialization",
+                "Dates": "September 2016 - May 2017",
                 "Objectives": [
                     {
-                        "Id": "",
-                        "Objective": ""
+                        "Id": "OE1",
+                        "Objective": "Gwelh lawglhg galshglshgslagh is where the firstahglsh wghnnzbpu alghsd nbaslh."
+                    }
+                ]
+            },
+            {
+                "Id": "ExF",
+                "Name": "Goucher College, Undergraduate",
+                "Dates": "September 2012 - May 2016",
+                "Objectives": [
+                    {
+                        "Id": "OF1",
+                        "Objective": "Dedc wghw is whgah wlej ghzcew lbjm lwhg ewte gashgsnb ew gasgh the first."
                     },
                     {
-                        "Id": "",
-                        "Objective": ""
-                    },
+                        "Id": "OF2",
+                        "Objective": "Booled the streent with a vroot lbjm lwhg ewte gashgsnb on crusp oalgh wngwh."
+                    }
                 ]
             }
-
         ]
     },
 
     "Skills and Accomplishments": {
         "Roles": [
             {
-                "Id": "",
-                "Name": "",
+                "Id": "RoA",
+                "Name": "Data Architecture",
                 "Tags": [
                     {
-                        "Id": "",
-                        "Name": ""
+                        "Id": "TA1",
+                        "Name": "Salesforce",
+                        "Score": "2 years",
                     },
                     {
-                        "Id": "",
-                        "Name": ""
+                        "Id": "TA2",
+                        "Name": "Python",
+                        "Score": "2 years"
                     },
+                    {
+                        "Id": "TA3",
+                        "Name": "UML/ERD",
+                        "Score": "2 years"
+                    }
+                ]
+            },
+            {
+                "Id": "RoB",
+                "Name": "Data Analysis",
+                "Tags": [
+                    {
+                        "Id": "TB1",
+                        "Name": "Python",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TB2",
+                        "Name": "Amazon Web Services for Business",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TB3",
+                        "Name": "Excel",
+                        "Score": "2 years"
+                    }
+                ]
+            },
+            {
+                "Id": "RoC",
+                "Name": "Database Administration",
+                "Tags": [
+                    {
+                        "Id": "TC1",
+                        "Name": "Salesforce",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TC2",
+                        "Name": "Support",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TC3",
+                        "Name": "Implementation",
+                        "Score": "2 years"
+                    }
+                ]
+            },
+            {
+                "Id": "RoD",
+                "Name": "Measurement and Evaluation",
+                "Tags": [
+                    {
+                        "Id": "TD1",
+                        "Name": "Statistics",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TD2",
+                        "Name": "Strategy",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TD3",
+                        "Name": "Research",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TD3",
+                        "Name": "Implementation",
+                        "Score": "2 years"
+                    }
+                ]
+            },
+            {
+                "Id": "RoE",
+                "Name": "Web Development",
+                "Tags": [
+                    {
+                        "Id": "TE1",
+                        "Name": "HTML/CSS",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TE2",
+                        "Name": "JavaScript",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TE3",
+                        "Name": "Forms",
+                        "Score": "2 years"
+                    },
+                    {
+                        "Id": "TE3",
+                        "Name": "UI/UX",
+                        "Score": "2 years"
+                    }
                 ]
             }
         ],
