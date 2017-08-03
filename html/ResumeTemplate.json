@@ -98,9 +98,9 @@
                     {
                         "Id": "OD2",
                         "Objective": "Builwged wthe is gazeging for hewg ehtng on the lwhg ewte gashgsnb ew gasgh the first."
-                    },
+                    }
                 ]
-            },
+            }
 
         ],
         "Education": [
@@ -142,7 +142,7 @@
                     {
                         "Id": "TA1",
                         "Name": "Salesforce",
-                        "Score": "2 years",
+                        "Score": "2 years"
                     },
                     {
                         "Id": "TA2",
