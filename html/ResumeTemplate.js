@@ -65,18 +65,15 @@ $(document).ready(function(){
             console.log(objSelector);
 
             $.each(exp["Objectives"], function(j, obj) {
-                console.log(obj);
 
-                /*
                 var subMap = {
                     "obj1": obj["Id"],
                     "objective": obj["Objective"]
                 };
 
-                console.log(subMap);
+                var newObjective = replaceAll(objectiveRecord, subMap);
 
-                var newObjective = replaceAll(objective, subMap);
-                */
+                $(objSelector).append(newObjective);
 
             });
         });
