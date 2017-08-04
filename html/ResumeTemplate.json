@@ -41,10 +41,6 @@
                 "Dates": "August 2015 - December 2015",
                 "Objectives": [
                     {
-                        "Id": "OB1",
-                        "Objective": "This is where the first lorem ipsum wordg ahge thes  htewl hewhg laljvw thenv we th algh ewhb whglah naghw."
-                    },
-                    {
                         "Id": "OB2",
                         "Objective": "Toladg is where the second aglhegl wgalhvnlas hglewighla aglshg we ghagewl."
                     },
@@ -65,10 +61,6 @@
                 "Name": "Goucher College, Junior Business Analyst",
                 "Dates": "August 2014 - August 2015",
                 "Objectives": [
-                    {
-                        "Id": "OC1",
-                        "Objective": "This is where the first lorem ipsum wordg ahge thes reichold asenb cheglid thenv we th algh ewhb tranges govned."
-                    },
                     {
                         "Id": "OC2",
                         "Objective": "Heteged sglhe deg gwa nbsg ewhen is where the for alwt ghenv to checki nbaslh tomow."

@@ -21,6 +21,7 @@ $(document).ready(function(){
 
         //creates roleTag html variable
         var roleTag = '<div class="roleTag" id="tag1">' + $("#tag1").html(); + '</div>';
+        $("#tag1").remove();
 
         //creates roleItem html variable
         var roleItem = '<div class="roleItem" id="role1">' + $("#role1").html() + '</div>';
@@ -167,16 +168,33 @@ $(document).ready(function(){
         //replaces template roleItem with JSON data and appends to Skills and Accomplishments section
         var role = json["Skills and Accomplishments"]["Roles"];
 
-        $.each(role, function(i, exp) {
+        $.each(role, function(i, item) {
 
             var map = {
-                "role1": exp["Id"],
-                "nameReplace" : exp["Name"],
+                "role1": item["Id"],
+                "nameReplace" : item["Name"],
             };
 
             var newRoleItem = replaceAll(roleItem, map);
 
             $("#roleList").append(newRoleItem);
+
+            var tagSelector = "#" + item["Id"];
+
+            $.each(item["Tags"], function(j, tag) {
+
+                var subMap = {
+                    "tag1": tag["Id"],
+                    "tagReplace": tag["Name"],
+                    "scoreReplace": tag["Score"]
+                };
+
+                var newTag = replaceAll(roleTag, subMap);
+
+                $(tagSelector).append(newTag);
+
+            });
+
         });
     });
 
