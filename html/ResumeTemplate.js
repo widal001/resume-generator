@@ -11,19 +11,22 @@ $(document).ready(function(){
             });
         };
 
-        ////creates expRecord html
+        ////creates objectiveRecord html variable
         var objectiveRecord = '<li id="obj1">' + $("#obj1").html() + '</li>';
         $("#obj1").remove();
 
-        //creates expRecord html
+        //creates expRecord html variable
         var record = '<div class="expRecord" id="exp1">' + $("#exp1").html() + '</div>';
         $("#exp1").remove();
 
-        //creates roleItem html
+        //creates roleTag html variable
+        var roleTag = '<div class="roleTag" id="tag1">' + $("#tag1").html(); + '</div>';
+
+        //creates roleItem html variable
         var roleItem = '<div class="roleItem" id="role1">' + $("#role1").html() + '</div>';
         $("#role1").remove();
 
-        //creates roleItem html
+        //creates accompRecord html variable
         var accompRecord = '<div class="accompRecord" id="accomp1">' + $("#accomp1").html() + '</div>';
         $("#accomp1").remove();
 
@@ -92,6 +95,22 @@ $(document).ready(function(){
             var newRecord = replaceAll(record, map);
 
             $("#service").append(newRecord);
+
+            var objSelector = "#" + exp["Id"] + " .objList ul";
+            console.log(objSelector);
+
+            $.each(exp["Objectives"], function(j, obj) {
+
+                var subMap = {
+                    "obj1": obj["Id"],
+                    "objective": obj["Objective"]
+                };
+
+                var newObjective = replaceAll(objectiveRecord, subMap);
+
+                $(objSelector).append(newObjective);
+
+            });
         });
 
         //replaces template expRecord with JSON data and appends to edu section
@@ -108,6 +127,23 @@ $(document).ready(function(){
             var newRecord = replaceAll(record, map);
 
             $("#education").append(newRecord);
+
+            var objSelector = "#" + exp["Id"] + " .objList ul";
+            console.log(objSelector);
+
+            $.each(exp["Objectives"], function(j, obj) {
+
+                var subMap = {
+                    "obj1": obj["Id"],
+                    "objective": obj["Objective"]
+                };
+
+                var newObjective = replaceAll(objectiveRecord, subMap);
+
+                $(objSelector).append(newObjective);
+
+            });
+
         });
 
         //replaces template accompRecord with JSON data and appends to accomp section
@@ -125,6 +161,7 @@ $(document).ready(function(){
             var newRecord = replaceAll(accompRecord, map);
 
             $("#accomp").append(newRecord);
+
         });
 
         //replaces template roleItem with JSON data and appends to Skills and Accomplishments section
