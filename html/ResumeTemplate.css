@@ -340,3 +340,62 @@
     border-width: thin;
     border-style: none;
 }
+
+.accompRecord {
+    position: relative;
+    width: inherit;
+    margin-bottom: 6px;
+}
+
+.accompDate {
+    position:relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 54px;
+
+    font-size: 11px;
+    font-family: 'Bitter', sans-serif;
+    color: #0a0a0a;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
+}
+
+.accompText {
+    position:relative;
+    display: inline-block;
+    width: 117px;
+
+    border-color: blue;
+    border-width: thin;
+    border-style: none;
+}
+
+.accompName {
+    position:relative;
+    width: inherit;
+    margin-bottom: 3px;
+
+    font-size: 11px;
+    font-family: 'Bitter', sans-serif;
+    color: #666666;
+
+    border-color: pink;
+    border-width: thin;
+    border-style: none;
+}
+
+
+.accompSub {
+    position:relative;
+    width: inherit;
+
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0a0a0a;
+
+    border-color: lightgreen;
+    border-width: thin;
+    border-style: none;
+}

@@ -254,11 +254,17 @@
 
         "Accomplishments": [
             {
-                "Id": "",
-                "Name": "",
-                "Dates": ""
+                "Id": "AcA",
+                "Date": "Mar 2017",
+                "Name": "FormAssembly Blog",
+                "Sub": "Unconscious Bias in Hiring? There's a Connector for that"
+            },
+            {
+                "Id": "AcB",
+                "Date": "Sep 2017",
+                "Name": "Harvard Business Review",
+                "Sub": "Advancing Equity through UX/UI Design"
             }
-
         ]
 
     }
