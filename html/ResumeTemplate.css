@@ -3,9 +3,10 @@
     width: 612px;
     height: 792px;
     margin: auto;
+    margin-bottom: 18px;
 
 
-    border-style: none;
+    border-style: solid;
     border-color: lightgrey;
     border-width: thin;
 
@@ -162,32 +163,29 @@
 .mainCol {
     position: relative;
     width: 369px;
-    height: 657px;
     top: 18px;
     left: 18px;
     float: left;
 
-    /*
+
     border-color: lightgrey;
     border-width: thin;
-    border-style: solid;
-    */
+    border-style: none;
+
 
 
 }
 .sideCol {
     position: relative;
     width: 180px;
-    height: 657px;
     top: 18px;
     right: 18px;
     float: right;
 
-    /*
     border-color: lightblue;
     border-width: thin;
-    border-style: solid;
-    */
+    border-style: none;
+
 }
 
 .expSection {
