@@ -4,11 +4,11 @@
     height: 792px;
     margin: auto;
 
-    /*
-    border-style: solid;
+
+    border-style: none;
     border-color: lightgrey;
     border-width: thin;
-    */
+
 }
 
 .pdfHeader {

@@ -47,6 +47,9 @@ $(document).ready(function(){
             var role1 = origText.replace(/Role1/, Contact["Roles"][0]);
             return role1.replace(/Role2/, Contact["Roles"][1]);
         });
+        $("title").text(function(i, origText) {
+            return origText.replace(/#/, Contact["Name"]);
+        });
 
         //replaces template expRecord with JSON data and appends to work section
         var Work = json["Background"]["Work Experience"];
