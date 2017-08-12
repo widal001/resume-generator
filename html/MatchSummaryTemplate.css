@@ -1,0 +1,201 @@
+.pdfBorder {
+    position: relative;
+    width: 612px;
+    height: 792px;
+    margin: auto;
+
+
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+
+}
+
+.pdfHeader {
+    position: relative;
+    width: inherit;
+    height: 118px;
+    background-color: #F4F0DE;
+
+    border-style: none;
+    border-color: blue;
+    border-width: thin;
+}
+
+.headerCircles {
+    position: relative;
+    width: 243px;
+    height: 99px;
+    margin: 0px auto;
+    top: 9px;
+
+    border-style: none;
+    border-color: blue;
+    border-width: thin;
+}
+
+.leftCircle {
+    position: relative;
+    float: left;
+    top: 18px;
+
+    border-style: none;
+    border-color: red;
+    border-width: thin;
+}
+
+.rightCircle {
+    position: relative;
+    float: right;
+    top: 18px;
+
+    border-style: none;
+    border-color: pink;
+    border-width: thin;
+}
+
+.centerCircle {
+    position: relative;
+    margin: 0 auto;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
+}
+
+
+.mainCircle {
+    position: relative;
+    width: 81px;
+    height: 81px;
+    background-color: white;
+    margin: auto;
+
+    border-color: #4F81BD;
+    border-style: solid;
+    border-width: 2.25px;
+    border-radius: 100%;
+
+    font-size: 40px;
+    font-family: 'Bitter',serif;
+    text-align: center;
+    color: #4F81BD;
+    line-height: 81px;
+}
+
+.sideCircle {
+    position: relative;
+    width: 63px;
+    height: 63px;
+    background-color: white;
+    margin: auto;
+
+    border-color: #4F81BD;
+    border-style: solid;
+    border-width: 2.25px;
+    border-radius: 100%;
+
+    font-size: 28px;
+    font-family: 'Bitter',serif;
+    text-align: center;
+    color: #4F81BD;
+    line-height: 63px;
+}
+
+.circleText {
+    position: relative;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: 14px;
+    color: #666666;
+}
+
+
+.pdfBody {
+    position: relative;
+    width: inherit;
+    height: 666px;
+    padding: 18px
+
+    border-style: none;
+    border-color: green;
+    border-width: thin;
+
+}
+
+.leftCol {
+    position: relative;
+    width: 270px;
+    height: 432px;
+    top: 18px;
+    left: 18px;
+    float: left;
+
+    border-color: red;
+    border-width: thin;
+    border-style: none;
+
+
+}
+
+.centerDivide {
+    position: relative;
+    width: 1.5px;
+    height: 396px;
+    top: 54px;
+    background-color: #9BBB59;
+    margin: 0 auto;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
+}
+
+.rightCol {
+    position: relative;
+    width: 270px;
+    height: 432px;
+    top: 18px;
+    right: 18px;
+    float: right;
+
+    border-color: purple;
+    border-width: thin;
+    border-style: none;
+
+}
+
+.bottomRow {
+    position: relative;
+    clear: both;
+    width: 576px;
+    height: 198px;
+    top: 18px;
+    left: 18px;
+
+    border-color: teal;
+    border-width: thin;
+    border-style: none;
+}
+
+.expSection {
+    position: relative;
+    width: inherit;
+    margin-bottom: 9px;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
+}
+
+.sectionTitle {
+    font-size: 14px;
+    font-family: 'Zilla Slab', serif;
+    color: #4F81BD;
+    padding-bottom: 2px;
+    margin-bottom: 9px;
+
+    border-bottom-color: #4F81BD;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+}
