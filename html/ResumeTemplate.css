@@ -39,7 +39,7 @@
 
     border-color: #4F81BD;
     border-style: solid;
-    border-width: 2.5px;
+    border-width: 2.25px;
     border-radius: 100%;
 
     font-size: 36px;
@@ -162,32 +162,25 @@
 .mainCol {
     position: relative;
     width: 369px;
-    height: 657px;
     top: 18px;
     left: 18px;
     float: left;
 
-    /*
     border-color: lightgrey;
     border-width: thin;
-    border-style: solid;
-    */
-
+    border-style: none;
 
 }
 .sideCol {
     position: relative;
     width: 180px;
-    height: 657px;
     top: 18px;
     right: 18px;
     float: right;
 
-    /*
     border-color: lightblue;
     border-width: thin;
-    border-style: solid;
-    */
+    border-style: none;
 }
 
 .expSection {
@@ -195,11 +188,9 @@
     width: inherit;
     margin-bottom: 9px;
 
-    /*
     border-color: green;
     border-width: thin;
-    border-style: solid;
-    */
+    border-style: none;
 }
 
 .sectionTitle {
