@@ -14,7 +14,7 @@
 .pdfHeader {
     position: relative;
     width: inherit;
-    height: 118px;
+    height: 108px;
     background-color: #F4F0DE;
 
     border-style: none;
@@ -22,9 +22,78 @@
     border-width: thin;
 }
 
+.headerName {
+    position: relative;
+    float: left;
+    width: 180px;
+    margin-top: 18px;
+    left: 18px;
+
+    border-color: orange;
+    border-style: none;
+    border-width: thin;
+
+}
+
+.headerContact {
+    position: relative;
+    float: right;
+    width: 180px;
+    height: 72px;
+    margin-top: 18px;
+
+    border-color: orange;
+    border-style: none;
+    border-width: thin;
+
+}
+
+.contactItem {
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.itemSymbol {
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 21px;
+
+    width: 18px;
+    height: 18px;
+    border-color: #4F81BD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+}
+
+.itemSymbol .material-icons {
+    font-size: 13px;
+    color: #4F81BD;
+}
+
+#phoneSymbol {
+    font-weight: bold;
+    top: 1px;
+}
+
+.itemText {
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+    height: 18px;
+
+    font-size: 9px;
+    line-height: 18px;
+    font-family: 'Bitter', serif;
+    color: #666666;
+
+}
+
 .headerCircles {
     position: relative;
-    width: 243px;
+    width: 207px;
     height: 99px;
     margin: 0px auto;
     top: 9px;
@@ -66,8 +135,8 @@
 
 .mainCircle {
     position: relative;
-    width: 81px;
-    height: 81px;
+    width: 72px;
+    height: 72px;
     background-color: white;
     margin: auto;
 
@@ -76,17 +145,17 @@
     border-width: 2.25px;
     border-radius: 100%;
 
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'Bitter',serif;
     text-align: center;
     color: #4F81BD;
-    line-height: 81px;
+    line-height: 72px;
 }
 
 .sideCircle {
     position: relative;
-    width: 63px;
-    height: 63px;
+    width: 54px;
+    height: 54px;
     background-color: white;
     margin: auto;
 
@@ -95,11 +164,11 @@
     border-width: 2.25px;
     border-radius: 100%;
 
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Bitter',serif;
     text-align: center;
     color: #4F81BD;
-    line-height: 63px;
+    line-height: 54px;
 }
 
 .circleText {
@@ -114,8 +183,7 @@
 .pdfBody {
     position: relative;
     width: inherit;
-    height: 666px;
-    padding: 18px
+    height: 684px;
 
     border-style: none;
     border-color: green;
@@ -127,7 +195,7 @@
     position: relative;
     width: 270px;
     height: 432px;
-    top: 18px;
+    top: 12px;
     left: 18px;
     float: left;
 
@@ -142,7 +210,7 @@
     position: relative;
     width: 1.5px;
     height: 387px;
-    top: 54px;
+    top: 45px;
     background-color: #9BBB59;
     margin: 0 auto;
 
@@ -155,7 +223,7 @@
     position: relative;
     width: 270px;
     height: 432px;
-    top: 18px;
+    top: 12px;
     right: 18px;
     float: right;
 
@@ -170,7 +238,7 @@
     clear: both;
     width: 576px;
     height: 198px;
-    top: 18px;
+    top: 12px;
     left: 18px;
 
     border-color: teal;
@@ -313,13 +381,64 @@
     font-size: 9px;
     font-family: 'Quicksand', sans-serif;
     color: #0a0a0a;
+    font-weight: bold;
 
     border-color: green;
     border-width: thin;
     border-style: none;
 }
 
-.relativeScore .material-icons {
+
+.expSection {
+    position: relative;
+    width: inherit;
+    margin-bottom: 9px;
+
+    border-color: green;
+    border-width: thin;
+    border-style: none;
+}
+
+.sectionTitle {
+    font-size: 14px;
+    font-family: 'Zilla Slab', serif;
+    color: #4F81BD;
+    padding-bottom: 2px;
+    margin-bottom: 9px;
+
+    border-bottom-color: #4F81BD;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+}
+
+.expRecord {
+    position: relative;
+    width: inherit;
+    min-height: 36px;
+    padding-left: 3px;
+    margin-bottom: 12px;
+
+    border-left-color: #9BBB59;
+    border-left-style: solid;
+    border-left-width: 1.5px;
+
+}
+
+.recName {
     font-size: 11px;
+    font-family: 'Bitter', serif;
     color: #0a0a0a;
+}
+
+.recExperience {
+    font-size: 11px;
+    font-family: 'Bitter', serif;
+    color: #666666;
+}
+.recText {
+    width: 97%;
+    font-size: 9px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0a0a0a;
+    margin-top: 3px;
 }
