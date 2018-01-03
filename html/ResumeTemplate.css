@@ -6,7 +6,7 @@
     margin-bottom: 18px;
 
 
-    border-style: solid;
+    border-style: none;
     border-color: lightgrey;
     border-width: thin;
 
@@ -223,7 +223,7 @@
     width: inherit;
     min-height: 36px;
     padding-left: 3px;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
 
     border-left-color: #9BBB59;
     border-left-style: solid;
@@ -235,6 +235,7 @@
     font-size: 11px;
     font-family: 'Bitter', serif;
     color: #0a0a0a;
+    margin-bottom: 3px;
 }
 
 .expName {
