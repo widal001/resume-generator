@@ -328,7 +328,7 @@
     font-size: 9px;
     font-family: 'Quicksand', sans-serif;
     color: #0a0a0a;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
 
     border-color: blue;
     border-width: thin;
@@ -345,7 +345,7 @@
     font-family: 'Quicksand', sans-serif;
     color: #0a0a0a;
 
-    border-color: green;
+    border-color: blue;
     border-width: thin;
     border-style: none;
 
@@ -388,6 +388,27 @@
     border-style: none;
 }
 
+svg {
+    position:relative;
+    display: inline-block;
+    width: 138px;
+    height: 12px;
+    top: 2px
+}
+
+.poolBar {
+    height: 12px;
+
+    fill: #dddddd;
+
+}
+
+.candidateBar {
+    height: 4px;
+    y:4px;
+
+    fill: #4F81BD;
+}
 
 .expSection {
     position: relative;
