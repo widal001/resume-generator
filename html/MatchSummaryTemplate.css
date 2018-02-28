@@ -399,7 +399,7 @@ svg {
 .poolBar {
     height: 12px;
 
-    fill: #dddddd;
+    fill: #dfdfdfdf;
 
 }
 
@@ -407,7 +407,14 @@ svg {
     height: 4px;
     y:4px;
 
+    fill: #9BBB59;
+}
+
+.poolAvg {
+    height: 8px;
     fill: #4F81BD;
+    width: 2px;
+    y: 2px;
 }
 
 .expSection {
